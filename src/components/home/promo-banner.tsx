@@ -1,0 +1,5 @@
+import { ArrowIcon } from "@/components/ui/icons";
+
+export function PromoBanner() {
+  return <section className="relative overflow-hidden bg-[#a05f4e] text-white"><span className="absolute -right-8 -bottom-24 font-display text-[16rem] leading-none text-white/[0.06] italic sm:text-[24rem]">T</span><div className="page-shell relative grid gap-10 py-20 sm:py-28 lg:grid-cols-12 lg:items-end"><div className="lg:col-span-8 lg:col-start-2"><p className="text-[10px] font-semibold tracking-[0.22em] uppercase opacity-75">Náš butik v Bratislave</p><h2 className="mt-4 max-w-3xl font-display text-5xl leading-[0.92] font-medium tracking-[-0.04em] sm:text-7xl">Zastavte sa a vyberte si <span className="italic">osobne.</span></h2><p className="mt-7 text-sm text-white/70">Laurinská 208/4, Bratislava · Pondelok až nedeľa, 10:00 až 18:00</p></div><a href="#" className="group inline-flex w-fit items-center gap-5 text-xs font-semibold tracking-[0.15em] uppercase lg:col-span-3"><span className="border-b border-white pb-2">Navštíviť butik</span><ArrowIcon className="size-4 transition-transform duration-300 group-hover:translate-x-2" /></a></div></section>;
+}
